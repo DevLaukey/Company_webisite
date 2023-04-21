@@ -2,10 +2,10 @@
   "site": {
     "title": "Inten Digitals Limited",
     "base_url": "/",
-    "favicon": "/images/favicon-32x32.png",
-    "logo": "/images/logo_inten.png",
-    "logo_width": "90",
-    "logo_height": "10",
+    "favicon": "/images/favicon.ico",
+    "logo": "/images/android-chrome-512x512.png",
+    "logo_width": "200",
+    "logo_height": "48",
     "logo_text": "Inten Digitals Limited"
   },
 
@@ -24,13 +24,13 @@
   "params": {
     "contact_form_action": "",
     "tag_manager_id": "",
-    "footer_content": "Your business our priority <br/> ~ Inten Digitals",
-    "copyright": "© 2023 Inten Digitals Limited. All Rights Reserved."
+    "footer_content": "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.",
+    "copyright": "Designed and Developed By [Themefisher](https://themefisher.com/)"
   },
 
   "metadata": {
-    "meta_author": "Inten Digitals Limited",
+    "meta_author": "Themefisher",
     "meta_image": "",
-    "meta_description": "Innovative tech with a human touch"
+    "meta_description": "A SAAS template for nextjs"
   }
 }
