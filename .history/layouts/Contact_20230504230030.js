@@ -6,6 +6,63 @@ const Contact = ({ data }) => {
   const { title, info } = frontmatter;
   const { contact_form_action } = config.params;
 
+
+  const [status, setStatus] = useState({
+    submitted: false,
+    submitting: false,
+    info: { error: false, msg: null },
+  });
+  const [inputs, setInputs] = useState({
+    email: '',
+    message: '',
+  });
+  const handleServerResponse = (ok, msg) => {
+    if (ok) {
+      setStatus({
+        submitted: true,
+        submitting: false,
+        info: { error: false, msg: msg },
+      });
+      setInputs({
+        email: '',
+        message: '',
+      });
+    } else {
+      setStatus({
+        info: { error: true, msg: msg },
+      });
+    }
+  };
+  const handleOnChange = (e) => {
+    e.persist();
+    setInputs((prev) => ({
+      ...prev,
+      [e.target.id]: e.target.value,
+    }));
+    setStatus({
+      submitted: false,
+      submitting: false,
+      info: { error: false, msg: null },
+    });
+  };
+  const handleOnSubmit = (e) => {
+    e.preventDefault();
+    setStatus((prevStatus) => ({ ...prevStatus, submitting: true }));
+    axios({
+      method: 'POST',
+      url: 'https://formspree.io/[your-formspree-endpoint]',
+      data: inputs,
+    })
+      .then((response) => {
+        handleServerResponse(
+          true,
+          'Thank you, your message has been submitted.',
+        );
+      })
+      .catch((error) => {
+        handleServerResponse(false, error.response.data.error);
+      });
+  };
   return (
     <section className="section">
       <div className="container">
@@ -15,7 +72,7 @@ const Contact = ({ data }) => {
             <form
               className="contact-form"
               method="POST"
-              action={contact_form_action}
+              onSubmit={handleOnSubmit}
             >
               <div className="mb-3">
                 <input
@@ -49,7 +106,6 @@ const Contact = ({ data }) => {
                   className="form-textarea w-full rounded-md"
                   rows="7"
                   placeholder="Your message"
-                  name="message"
                 />
               </div>
               <button type="submit" className="btn btn-primary">

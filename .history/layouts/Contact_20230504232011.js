@@ -49,7 +49,6 @@ const Contact = ({ data }) => {
                   className="form-textarea w-full rounded-md"
                   rows="7"
                   placeholder="Your message"
-                  name="message"
                 />
               </div>
               <button type="submit" className="btn btn-primary">
