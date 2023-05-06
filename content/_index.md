@@ -32,43 +32,46 @@ feature:
 
 # services
 services:
-  - title: "It is the most advanced digital marketing and it company."
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - title: "It is the most advanced digital marketing and IT company."
+    content: "Inten Digitals is a full-service digital agency that specializes in delivering advanced digital solutions to help your business succeed. We understand that every business is unique, which is why we take a personalized approach to every project. We work closely with our clients to understand their specific needs and develop customized solutions that meet their goals."
     images:
-      - "/images/service-slide-1.png"
-      - "/images/service-slide-2.png"
-      - "/images/service-slide-3.png"
+      - "/images/team_work.png"
+      - "/images/Digital_nomad.png"
+      - "/images/marketing.png"
     button:
       enable: true
       label: Check it out
       link: /contact
 
-  - title: "It is a privately owned Information and cyber security company"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - title: "It’s a team of experienced and skilled people"
+    content: "Our team of experts has the skills and expertise to provide and meet the diverse needs of our clients with a wide range of services, including digital marketing, web development, mobile app development, e-commerce solutions, cloud computing, AI, VR/AR development and more."
     images: 
-      - "/images/service-slide-1.png"
+      - "/images/Artificial_intelligence.png"
+      - "/images/Virtual_reality.png"
+      - "/images/building_websites.png"
+
     button:
       enable: true
       label: Check it out
       link: /contact
   
-  - title: "It’s a team of experienced and skilled people with distributions"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - title: "We are commited to providing exceptional customer service and support "
+    content: "With a focus on innovation, customer satisfaction, and cutting-edge technology, we are dedicated to helping businesses thrive in today's digital landscape. Whether you're a small startup or a large enterprise, we have the expertise and experience to help you achieve your goals and stay ahead of the competition. Contact us today to learn more about how we can help your business succeed."
     images:
-      - "/images/service-slide-1.png"
-      - "/images/service-slide-2.png"
-      - "/images/service-slide-3.png"
+      - "/images/team_work.png"
+      - "/images/reviews.png"
+      - "/images/survey.png"
     button:
       enable: true
       label: Check it out
       link: /contact
 
   - title: "A company standing different from others"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+    content: "At Inten we specialize in providing custom technological solutions to businesses. With our expertise in software development and IT consulting, we empower businesses to streamline their operations and improve their bottom line. Our commitment to innovation, and dedication to transparency and communication with our clients, we believe makes us a unique digital agency."
     images:
-      - "/images/service-slide-1.png"
-      - "/images/service-slide-2.png"
-      - "/images/service-slide-3.png"
+      - "/images/Business_decisions.png"
+      - "/images/both_sides.png"
+      - "/images/Working.png"
     button:
       enable: true
       label: Check it out
@@ -83,7 +86,7 @@ workflow:
 # call_to_action
 call_to_action:
   title: Ready to get started?
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.
+  content: Take your business to the next level with Inten Digitals. Don't wait to start realizing your digital potential - get started with Inten Digitals today.
   image: '/images/cta.svg'
   button:
     enable: true
