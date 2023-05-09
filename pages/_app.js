@@ -4,6 +4,11 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 import TagManager from "react-gtm-module";
 import "styles/style.scss";
+import { WhatsAppWidget } from 'react-whatsapp-widget';
+import 'react-whatsapp-widget/dist/index.css';
+import { ReactComponent as CompanyIcon } from 'public/images/logo.svg';
+
+
 
 const App = ({ Component, pageProps }) => {
   // default theme setup
@@ -35,6 +40,11 @@ const App = ({ Component, pageProps }) => {
 
   return (
     <>
+      <WhatsAppWidget CompanyIcon={CompanyIcon} phoneNumber="+254115093877" companyName="INTEN DIGITALS LIMITED"
+        replyTimeText="Quality for less"
+        message="Welcome to Inten Digitals, What can we do for you?"
+      open="true"/>
+
       <Head>
         {/* google font css */}
         <link
