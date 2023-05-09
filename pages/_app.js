@@ -43,7 +43,7 @@ const App = ({ Component, pageProps }) => {
       <WhatsAppWidget CompanyIcon={CompanyIcon} phoneNumber="+254115093877" companyName="INTEN DIGITALS LIMITED"
         replyTimeText="Quality for less"
         message="Welcome to Inten Digitals, What can we do for you?"
-      open="true"/>
+   />
 
       <Head>
         {/* google font css */}

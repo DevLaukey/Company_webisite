@@ -6,7 +6,7 @@ info:
   title: Reach Out!
   description: We are committed to providing exceptional customer service and will do our best to respond to your message within 24 hours. Thank you for choosing to contact us and we look forward to hearing from you soon.
   contacts: 
-    - "phone: +88 125 256 452"
-    - "Mail: [devlaukeymwaura@gmail.com](mailto:devlaukeymwaura@gmail.com)"
+    - "phone: +254701407469"
+    - "Mail: [team@inten.live](mailto:team@inten.live)"
     - "Nairobi, Kenya"
 ---
