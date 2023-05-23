@@ -1,6 +1,6 @@
 ---
 banner:
-  title: Empowering your business with custom technological solutions
+  title: Empowering your Business with Custom Technological Solutions
   content: We specialize in building scalable tech solution applications that drive growth.
   image: /images/banner-art.svg
   button:
@@ -9,7 +9,7 @@ banner:
 
 # feature
 feature: 
-  title: Make most out of your money
+  title: Make Most Out of Your Money
   features:
   - name: "Clean Code"
     icon: "/images/code.svg"
@@ -23,10 +23,10 @@ feature:
   - name: "Value for Money"
     icon: "/images/love.svg"
     content: "We offer flexible pricing options to suit your needs and budget, whether you're looking for a custom solution or a more streamlined package. Our team will work with you to find the right balance of features and cost to meet your needs."
-  - name: "Advanced functionality"
+  - name: "Advanced Functionality"
     icon: "/images/oop.svg"
     content: "Whether it's a complex e-commerce platform, a custom web application, or integration with third-party services, our team has the expertise and experience to deliver the advanced functionality you need to succeed."
-  - name: "Integration with other platforms"
+  - name: "Integration with Other Platforms"
     icon: "/images/cloud.svg"
     content: "We use best practices for seamless integrations with a range of popular tools and services, including CRMs, marketing automation platforms, and more."
 
