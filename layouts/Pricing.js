@@ -10,6 +10,8 @@ function Pricing({ data }) {
       <section className="section pb-0">
         <div className="container">
           <h1 className="text-center font-normal">{title}</h1>
+          <h5 className="text-center font-normal">Pricing for web and mobile applications</h5>
+
           <div className="section row -mt-10 justify-center md:mt-0">
             {plans.map((plan, index) => (
               <div

@@ -4,47 +4,64 @@ layout: pricing
 draft: false
 plans:
 - title: Basic Plan
-  subtitle: Best For Small Individuals
-  price: 49
-  type: month
+  subtitle: Best For Small Businesses and Individuals 
+  price: 630
+  type: application
   features:
-    - Express Service
-    - Customs Clearance
-    - Time-Critical Services
+    - Web / Mobile Design Services 
+    - Web / Mobile Development Services 
+    - Hosting and Domain purchase Services  at an extra cost
+    
   button:
-    label: Get started for free
+    label: Get Started
     link: "/contact"
 
 - title: Professional Plan
   subtitle: Best For Professionals
-  price: 69
-  type: month
+  price: 700
+  type: application
   recommended: true
   features:
-    - Express Service
-    - Customs Clearance
-    - Time-Critical Services
-    - Cloud Service
-    - Best Dashboard
+    - Web / Mobile Design Services 
+    - Web / Mobile Development Services 
+    - Hosting and Domain purchase Services  at an extra cost
+    - Zero add-on domains
+    - Unlimited Emails
+    - Free SSL certificate
+    - Google My Business Page
+    - Google Analytics
+    - Social Media Integration
+
   button:
     label: Get started
     link: "/contact"
 
 - title: Business Plan
-  subtitle: Best For Large Individuals
-  price: 99
-  type: month
+  subtitle: Best For Large Businesses and Individuals
+  price: 990
+  type: application
   features:
-    - Express Service
-    - Customs Clearance
-    - Time-Critical Services
+  - Ecommerce Tools
+  - Order Management System
+  - Live Chat
+  - Delivery Solutions
+  - Payment Integration
+  - CRM Intergration
+  - Hosting and Domain purchase Services  at an extra cost
+  - Zero add-on domains
+  - Unlimited Emails
+  - Free SSL certificate
+  - Google My Business Page
+  - Google Analytics
+  - Social Media Integration
+
   button:
     label: Get started
     link: "/contact"
 
 call_to_action:
   title: Need a larger plan?
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.
+  content: If you need a software solution that is not listed above, kindly send us a message.
   image: '/images/cta.svg'
   button:
     enable: true
