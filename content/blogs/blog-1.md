@@ -36,7 +36,6 @@ Through its innovative use of VR, **MetaMuse** is also redefining the way we app
 As museums and cultural institutions face the challenges of the digital age, **MetaMuse** offers a new business model that combines technology, engagement, and revenue generation. By partnering with these organizations, **MetaMuse** helps to expand its reach, attract new audiences, and increase revenue through digital offerings and tokenized assets.
 
 ---
-##### Blockquote
 
 > Discover a new dimension of art, history, and science in MetaMuse .
 
