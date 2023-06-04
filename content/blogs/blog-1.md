@@ -1,8 +1,8 @@
 ---
-title: "MetaMuse"
+title: "The Metaverse Revolutionizing Museums and Cultural Experiences"
 description: "The Metaverse Revolutionizing Museums and Cultural Experiences"
 image: "/images/blog-1.jpg"
-date: 2022-04-04T05:00:00Z
+date: 2023-04-04T05:00:00Z
 draft: false
 ---
 
