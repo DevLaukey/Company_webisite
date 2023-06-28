@@ -3,6 +3,7 @@ title: Pricing
 layout: pricing
 draft: false
 plans:
+
 - title: Basic Plan
   subtitle: Best For Small Businesses and Individuals 
   price: 630
@@ -36,6 +37,7 @@ plans:
     label: Get started
     link: "/contact"
 
+
 - title: Business Plan
   subtitle: Best For Large Businesses and Individuals
   price: 990
@@ -60,7 +62,7 @@ plans:
     link: "/contact"
 
 call_to_action:
-  title: Need a larger plan?
+  title: Need a custom plan?
   content: If you need a software solution that is not listed above, kindly send us a message.
   image: '/images/cta.svg'
   button:
