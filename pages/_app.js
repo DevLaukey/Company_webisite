@@ -7,6 +7,7 @@ import "styles/style.scss";
 import { WhatsAppWidget } from 'react-whatsapp-widget';
 import 'react-whatsapp-widget/dist/index.css';
 import { ReactComponent as CompanyIcon } from 'public/images/logo.svg';
+import Script from "next/script";
 
 
 
@@ -40,6 +41,19 @@ const App = ({ Component, pageProps }) => {
 
   return (
     <>
+       <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
+
+            <Script strategy="lazyOnload">
+                {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+                    page_path: window.location.pathname,
+                    });
+                `}
+      </Script>
+      
       <WhatsAppWidget CompanyIcon={CompanyIcon} phoneNumber="+254115093877" companyName="INTEN DIGITALS LIMITED"
         replyTimeText="Quality for less"
         message="Welcome to Inten Digitals, What can we do for you?"
