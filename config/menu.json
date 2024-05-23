@@ -12,6 +12,7 @@
       "name": "Pricing",
       "url": "/pricing"
     },
+
     {
       "name": "Contact",
       "url": "/contact"
@@ -19,6 +20,10 @@
     {
       "name": "FAQ",
       "url": "/faq"
+    },
+    {
+      "name": "Store",
+      "url": "http://store.intendigitals.com/"
     }
   ],
   "footer": [
