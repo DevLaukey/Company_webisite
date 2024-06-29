@@ -31,46 +31,43 @@
       "name": "Company",
       "menu": [
         {
-          "text": "Pricing",
-          "url": "/pricing"
-        },
-        {
-          "text": "Quick Start",
-          "url": "#"
-        }
-      ]
-    },
-    {
-      "name": "Product",
-      "menu": [
-        {
-          "text": "Features",
-          "url": "#"
-        },
-        {
-          "text": "Platform",
-          "url": "#"
+          "text": "Home",
+          "url": "/"
         },
         {
           "text": "Pricing",
           "url": "/pricing"
+        },
+
+        {
+          "text": "Contact",
+          "url": "/contact"
         }
       ]
     },
     {
-      "name": "Support",
+      "name": "Store",
       "menu": [
+        {
+          "text": "Store",
+          "url": "http://store.intendigitals.com/"
+        },
+        {
+          "text": "Pricing",
+          "url": "/pricing"
+        }
+      ]
+    },
+    {
+      "name": "Information",
+      "menu": [
+        {
+          "text": "Blog",
+          "url": "/blogs"
+        },
         {
           "text": "FAQ",
           "url": "/faq"
-        },
-        {
-          "text": "Privacy Policy",
-          "url": "#"
-        },
-        {
-          "text": "Terms & Conditions",
-          "url": "#"
         }
       ]
     }

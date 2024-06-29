@@ -11,7 +11,7 @@ plans:
   features:
     - Web / Mobile Design Services 
     - Web / Mobile Development Services 
-    - Hosting and Domain purchase Services  at an extra cost
+    - Hosting and Domain purchase Services
     
   button:
     label: Get Started
@@ -23,9 +23,9 @@ plans:
   type: application
   recommended: true
   features:
-    - Web / Mobile Design Services 
+    - Web / Mobile Design Services  
     - Web / Mobile Development Services 
-    - Hosting and Domain purchase Services  at an extra cost
+    - Hosting and Domain purchase Services 
     - Zero add-on domains
     - Unlimited Emails
     - Free SSL certificate
@@ -49,7 +49,7 @@ plans:
   - Delivery Solutions
   - Payment Integration
   - CRM Intergration
-  - Hosting and Domain purchase Services  at an extra cost
+  - Hosting and Domain purchase Services 
   - Zero add-on domains
   - Unlimited Emails
   - Free SSL certificate
